@@ -228,7 +228,7 @@ extension String {
 
 // MARK: - 风格 Style
 
-extension String {
+public extension String {
     var bold        : String { return applyingStyle(.bold) }
     var dim         : String { return applyingStyle(.dim) }
     var italic      : String { return applyingStyle(.italic) }
